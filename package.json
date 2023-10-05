@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:testConnexion": "cypress run --spec cypress/e2e/3-formOpenska/testVisit.cy.js",
+    "cy:testDeconnection": "cypress run --spec cypress/e2e/3-formOpenska/testVisit3.cy.js"
   },
   "keywords": [],
   "author": "",
