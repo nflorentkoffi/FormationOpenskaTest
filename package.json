@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cy:testConnexion": "cypress run --spec cypress/e2e/3-formOpenska/testVisit.cy.js",
-    "cy:testDeconnection": "cypress run --spec cypress/e2e/3-formOpenska/testVisit3.cy.js",
+    "cy:testConnexionVisit": "cypress run --spec cypress/e2e/3-formOpenska/testVisit.cy.js",
+    "cy:testDeconnectionVisit": "cypress run --spec cypress/e2e/3-formOpenska/testVisit3.cy.js",
     "cy:open":"cypress open",
     "cy:run":"cypress run"
   },
